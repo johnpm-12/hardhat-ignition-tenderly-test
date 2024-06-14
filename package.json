@@ -1,0 +1,13 @@
+{
+  "name": "hardhat-ignition-tenderly-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploySameId": "hardhat run ./scripts/deploy.ts --network tenderlyBaseSameId",
+    "deployUniqueId": "hardhat run ./scripts/deploy.ts --network tenderlyBaseUniqueId"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "hardhat": "^2.22.5"
+  }
+}
